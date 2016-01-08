@@ -80,11 +80,6 @@ def update_nav
   GuidesTemplate.update_navigation_configuration BASEDIR
 end
 
-def create_repo
-  GuidesTemplate.remove_template_files BASEDIR
-  GuidesTemplate.create_new_git_repository BASEDIR
-end
-
 def update_theme
   GoScript.exec_cmd 'bundle update guides_style_18f'
 end
