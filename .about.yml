@@ -3,7 +3,7 @@ name: working_groups
 full_name: Working Group Working Group
 type: docs
 owner_type: "working-group"
-status: active
+status: paused
 testable: false
 description: >
   We create an environment in which working groups and guilds can thrive and have a meaningful impact on 18F deliverables and operations.
@@ -16,8 +16,6 @@ links:
 - url: https://pages.18f.gov/wg-working_groups/
   text: 18F Working Group Working Group home page
 team:
-- github: mbland
-  role: lead
 - github: gbinal
   role: lead
 - github: nickbristow
